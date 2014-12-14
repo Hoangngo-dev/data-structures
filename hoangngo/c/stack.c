@@ -4,8 +4,8 @@
  * Implementation of stack
  *
  */
-
-#define INIT_ALLOC_SIZE 4;
+#include "stack.h"
+#define INIT_ALLOC_SIZE 4
 
 void StackNew(stack *s, int elementSize)
 {

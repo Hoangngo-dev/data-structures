@@ -4,8 +4,13 @@
  * An interface for a stack
  */
 
- #ifndef _STACK_H
- #define _STACK_H
+#ifndef _STACK_H
+#define _STACK_H
+
+#include <string.h>
+#include <stdbool.h>
+#include "stdlib.h"
+#include <assert.h>
 
 /*
  * Type: stack
