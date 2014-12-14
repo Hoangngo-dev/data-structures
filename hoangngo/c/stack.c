@@ -31,9 +31,9 @@ void StackPush(stack *s, const void *elementAddress)
 {
 	void *destinationAddress;
 
-	if (s->actualNumberOfElements == s.maximumNumberOfElements) {
-		s->allocLength *= 2;
-		s->elements = realloc(s->elements, s->allocLength * s->elementSize);
+	if (s->actualNumberOfElements == s->maximumNumberOfElements) {
+		s->maximumNumberOfElements *= 2;
+		s->elements = realloc(s->elements, s->maximumNumberOfElements * s->elementSize);
 		assert(s->elements != NULL);
 	}
 
