@@ -4,13 +4,13 @@
  * An interface for a queue
  */
 
- #ifndef _QUEUE_H
- #define _QUEUE_H
+#ifndef _QUEUE_H
+#define _QUEUE_H
 
 #include <string.h>
 #include <stdbool.h>
 #include "stdlib.h"
- #include <assert.h>
+#include <assert.h>
 
 /*
  * Type: queue

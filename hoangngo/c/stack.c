@@ -4,6 +4,7 @@
  * Implementation of stack
  *
  */
+ 
 #include "stack.h"
 #define INIT_ALLOC_SIZE 4
 
