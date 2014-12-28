@@ -24,4 +24,9 @@ class Stack
 	def size
 		@elements.size
 	end
+
+	# Returns true if the queue is empty
+	def empty?
+		@elements.empty?
+	end
 end
